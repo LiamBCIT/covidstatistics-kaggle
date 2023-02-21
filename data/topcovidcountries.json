@@ -1,0 +1,202 @@
+[
+  {
+    "Serial Number": 1,
+    "Country": "USA",
+    "Total Cases": "104,196,861",
+    "Total Deaths": "1,132,935",
+    "Total Recovered": "101,322,779",
+    "Active Cases": "1,741,147",
+    "Total Test": "1,159,832,679",
+    "Population": "334,805,269"
+  },
+  {
+    "Serial Number": 2,
+    "Country": "India",
+    "Total Cases": "44,682,784",
+    "Total Deaths": "530,740",
+    "Total Recovered": "44,150,289",
+    "Active Cases": "1,755",
+    "Total Test": "915,265,788",
+    "Population": "1,406,631,776"
+  },
+  {
+    "Serial Number": 3,
+    "Country": "France",
+    "Total Cases": "39,524,311",
+    "Total Deaths": "164,233",
+    "Total Recovered": "39,264,546",
+    "Active Cases": "95,532",
+    "Total Test": "271,490,188",
+    "Population": "65,584,518"
+  },
+  {
+    "Serial Number": 4,
+    "Country": "Germany",
+    "Total Cases": "37,779,833",
+    "Total Deaths": "165,711",
+    "Total Recovered": "37,398,100",
+    "Active Cases": "216,022",
+    "Total Test": "122,332,384",
+    "Population": "83,883,596"
+  },
+  {
+    "Serial Number": 5,
+    "Country": "Brazil",
+    "Total Cases": "36,824,580",
+    "Total Deaths": "697,074",
+    "Total Recovered": "35,919,372",
+    "Active Cases": "208,134",
+    "Total Test": "63,776,166",
+    "Population": "215,353,593"
+  },
+  {
+    "Serial Number": 6,
+    "Country": "Japan",
+    "Total Cases": "32,588,442",
+    "Total Deaths": "68,399",
+    "Total Recovered": "21,567,425",
+    "Active Cases": "10,952,618",
+    "Total Test": "92,144,639",
+    "Population": "125,584,838"
+  },
+  {
+    "Serial Number": 7,
+    "Country": "S. Korea",
+    "Total Cases": "30,197,066",
+    "Total Deaths": "33,486",
+    "Total Recovered": "29,740,877",
+    "Active Cases": "422,703",
+    "Total Test": "15,804,065",
+    "Population": "51,329,899"
+  },
+  {
+    "Serial Number": 8,
+    "Country": "Italy",
+    "Total Cases": "25,453,789",
+    "Total Deaths": "186,833",
+    "Total Recovered": "25,014,986",
+    "Active Cases": "251,970",
+    "Total Test": "265,478,247",
+    "Population": "60,262,770"
+  },
+  {
+    "Serial Number": 9,
+    "Country": "UK",
+    "Total Cases": "24,274,361",
+    "Total Deaths": "204,171",
+    "Total Recovered": "24,020,088",
+    "Active Cases": "50,102",
+    "Total Test": "522,526,476",
+    "Population": "68,497,907"
+  },
+  {
+    "Serial Number": 10,
+    "Country": "Russia",
+    "Total Cases": "21,958,696",
+    "Total Deaths": "395,108",
+    "Total Recovered": "21,356,008",
+    "Active Cases": "207,580",
+    "Total Test": "273,400,000",
+    "Population": "145,805,947"
+  },
+  {
+    "Serial Number": 11,
+    "Country": "Turkey",
+    "Total Cases": "17,042,722",
+    "Total Deaths": "101,492",
+    "Total Recovered": "N/A",
+    "Active Cases": "N/A",
+    "Total Test": "162,743,369",
+    "Population": "85,561,976"
+  },
+  {
+    "Serial Number": 12,
+    "Country": "Spain",
+    "Total Cases": "13,731,478",
+    "Total Deaths": "118,434",
+    "Total Recovered": "13,557,699",
+    "Active Cases": "55,345",
+    "Total Test": "471,036,328",
+    "Population": "46,719,142"
+  },
+  {
+    "Serial Number": 13,
+    "Country": "Vietnam",
+    "Total Cases": "11,526,508",
+    "Total Deaths": "43,186",
+    "Total Recovered": "10,612,479",
+    "Active Cases": "870,843",
+    "Total Test": "85,826,548",
+    "Population": "98,953,541"
+  },
+  {
+    "Serial Number": 14,
+    "Country": "Australia",
+    "Total Cases": "11,295,446",
+    "Total Deaths": "18,615",
+    "Total Recovered": "11,235,771",
+    "Active Cases": "41,060",
+    "Total Test": "78,835,048",
+    "Population": "26,068,792"
+  },
+  {
+    "Serial Number": 15,
+    "Country": "Argentina",
+    "Total Cases": "10,037,135",
+    "Total Deaths": "130,421",
+    "Total Recovered": "9,877,032",
+    "Active Cases": "29,682",
+    "Total Test": "35,716,069",
+    "Population": "46,010,234"
+  },
+  {
+    "Serial Number": 16,
+    "Country": "Taiwan",
+    "Total Cases": "9,569,611",
+    "Total Deaths": "16,356",
+    "Total Recovered": "9,129,766",
+    "Active Cases": "423,489",
+    "Total Test": "30,207,485",
+    "Population": "23,888,595"
+  },
+  {
+    "Serial Number": 17,
+    "Country": "Netherlands",
+    "Total Cases": "8,582,500",
+    "Total Deaths": "22,989",
+    "Total Recovered": "8,547,771",
+    "Active Cases": "11,740",
+    "Total Test": "25,984,435",
+    "Population": "17,211,447"
+  },
+  {
+    "Serial Number": 18,
+    "Country": "Iran",
+    "Total Cases": "7,564,350",
+    "Total Deaths": "144,749",
+    "Total Recovered": "7,337,549",
+    "Active Cases": "82,052",
+    "Total Test": "54,420,785",
+    "Population": "86,022,837"
+  },
+  {
+    "Serial Number": 19,
+    "Country": "Mexico",
+    "Total Cases": "7,368,252",
+    "Total Deaths": "332,198",
+    "Total Recovered": "6,606,633",
+    "Active Cases": "429,421",
+    "Total Test": "19,356,195",
+    "Population": "131,562,772"
+  },
+  {
+    "Serial Number": 20,
+    "Country": "Indonesia",
+    "Total Cases": "6,730,289",
+    "Total Deaths": "160,817",
+    "Total Recovered": "6,565,208",
+    "Active Cases": "4,264",
+    "Total Test": "114,158,919",
+    "Population": "279,134,505"
+  }
+]
