@@ -33,7 +33,7 @@ export default function viewbycountry() {
         <div>
             <div class="flex items-center justify-between">
                 <div>
-                    <h2 class="font-bold text-5xl text-purpleText z-50">Covid Tracker</h2>
+                    <h2 class="font-bold text-5xl text-purpleText z-50">View By Country</h2>
                 </div>
                 <div class="flex items-center space-x-12 z-50">
                     <Link href="/" class="border px-4 py-1.5 rounded-md border-black font-semibold">Home</Link>

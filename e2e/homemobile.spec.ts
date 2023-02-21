@@ -5,19 +5,15 @@ test.use({
     ...devices['iPhone XR']
 })
 
-test.describe("Testing for mobile viewing", () => {
-    test('Test multiple tabs', async ({ browser }) => {
-        const context = await browser.newContext();
-        const page1 = await context.newPage();
-        const page2 = await context.newPage();
-        const page3 = await context.newPage();
-    
-        await page1.goto('http://localhost:3000/');
-        await page2.goto('http://localhost:3000/');
-        await page3.goto('http://localhost:3000/');
-    })
-    test("Testing it has correct url", async ({ page }) => { 
-        await page.goto('http://localhost:3000/')
-        await expect(page).toHaveURL('http://localhost:3000/')
+test.describe("The mobile viewport for iPhone XR", () => {
+    test('Testing for colours on iPhone XR', async ({page})=> {
+        await page.goto('http://localhost:3000/');
+        
+        const mainContainer = page.locator('#colouring');
+        const checkingBackgroundColour = await mainContainer.evaluate((ele) => {
+            return window.getComputedStyle(ele).getPropertyValue("background-color")
+        })
+        console.log(checkingBackgroundColour);
+        expect(checkingBackgroundColour).toBe("rgb(255, 0, 0)");
     })
 })

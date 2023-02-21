@@ -3,9 +3,11 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import record from '../data/topcovidcountries.json'
-// import Lottie from "lottie-react";
 import { useState, useEffect, useRef } from "react";
 import Link from 'next/link';
+
+import Loader from '../public/loading-dots.json';
+import Lottie from "lottie-react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,7 @@ export default function Home() {
     useEffect(() => {
       const timer = setTimeout(() => {
         setLoader(false);
-      }, 750);
+      }, 2000);
   
       return () => clearTimeout(timer);
     }, []);
@@ -32,17 +34,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* {loading && (
-        <div className="flex justify-center items-center min-h-screen">
-          <Lottie
-            animationData={require("../../public/lottie-files/loading-dots.json")}
-            style={{
-              width: 500,
-              height: 300,
-            }}
-          />
+      {loader && (
+        <div className="flex items-center min-h-screen right-50">
+          <Lottie animationData={Loader} />
         </div>
-      )} */}
+      )}
 
   <div class="px-64 py-6">
         <div>
@@ -79,7 +75,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div>
-                    <div class="absolute top-20">
+                    <div class="absolute top-20 object-scale-down h-100 w-100">
                         <img src="/coronavirusblue.png" class="coronavirusblue" alt=""/>
                     </div>
                 </div>

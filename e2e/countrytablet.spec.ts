@@ -7,7 +7,7 @@ test.use({
 })
 
 test.describe("Testing for home tablet", () => {
-    test('Test multiple tabs', async ({ browser }) => {
+    test('Test multiple tabs', async ({ browser }) => { 
         const context = await browser.newContext();
         const page1 = await context.newPage();
         const page2 = await context.newPage();
