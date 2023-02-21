@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
                 <img src="/Decore.png" class="absolute right-0 top-0 " alt=""/>
             </div>
-            <div class="pt-60 flex items-center">
+            <div class="pt-40 flex items-center">
                 <div class="w-[450px]">
                     <div>
                         <div class="grid gap-4">

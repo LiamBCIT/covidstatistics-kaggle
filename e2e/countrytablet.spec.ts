@@ -15,7 +15,6 @@ test.describe("Testing for country page tablet", () => {
 
   });
 
-
   test("checking home is there", async ({ page }) => {
     await page.goto("http://localhost:3000/viewbycountry");
     const contry = page.locator("#contrytablet-link");
