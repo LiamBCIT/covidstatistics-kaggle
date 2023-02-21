@@ -29,14 +29,14 @@ export default function viewbycountry() {
         <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
       </Head>
 
-  <div class="px-64 py-6">
-        <div>
+  <main class="countrymain">
+        <div class="px-64 py-6">
             <div class="flex items-center justify-between">
-                <div>
+                <div id="h2-container">
                     <h2 class="font-bold text-5xl text-purpleText z-50">View By Country</h2>
                 </div>
-                <div class="flex items-center space-x-12 z-50">
-                    <Link href="/" class="border px-4 py-1.5 rounded-md border-black font-semibold">Home</Link>
+                <div id="contrytablet-link" class="flex items-center space-x-12 z-50">
+                    <Link href="/" className="border px-4 py-1.5 rounded-md border-black font-semibold">Home</Link>
                 </div>
                 <img src="/Decore.png" class="absolute right-0 top-0 z-[0]" alt=""/>
             </div>
@@ -60,7 +60,7 @@ export default function viewbycountry() {
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </>
 )
 }

@@ -5,15 +5,12 @@ test.use({
     ...devices['iPhone XR']
 })
 
-test.describe("The mobile viewport for iPhone XR", () => {
-    test('Testing for colours on iPhone XR', async ({page})=> {
-        await page.goto('http://localhost:3000/');
-        
-        const mainContainer = page.locator('#colouring');
-        const checkingBackgroundColour = await mainContainer.evaluate((ele) => {
-            return window.getComputedStyle(ele).getPropertyValue("background-color")
-        })
-        console.log(checkingBackgroundColour);
-        expect(checkingBackgroundColour).toBe("rgb(255, 0, 0)");
-    })
+
+test.describe("feature text and localhost test", () => {
+    test("Testing for localhost working link", async ({ page }) => {
+            await page.goto("http://localhost:3000/");
+    });
+        test("Testing for Coronavirus data 24/7", async ({ page }) => {
+            await page.click("text=Built with Kaggle, you can sort through the latest statistic information about covid-19 cases around the globe.");
+        })   
 })

@@ -40,12 +40,12 @@ export default function Home() {
         </div>
       )}
 
-  <div class="px-64 py-6">
+  <div class="px-64 py-6" id="maincontainer-home">
         <div>
             <div class="flex items-center justify-between">
                 <div>
                     {/* <img src="/Logo.png" alt=""/> */}
-                    <h2 class="font-bold text-5xl text-purpleText z-50">Covid Tracker</h2>
+                    <h2 id="countrytablet-div" class="font-bold text-5xl text-purpleText z-50">Covid Tracker</h2>
                 </div>
                 <div class="flex items-center space-x-12 z-50">
                     {/* <a href="#" class="font-semibold">Sort by Country</a> */}
@@ -65,7 +65,7 @@ export default function Home() {
                             </div>
                             <div>
                                 <span class="text-lightPurpleText">
-                                    Built with kaggle's, you can sort through the latest statistic information about covid-19 cases around the globe.
+                                    Built with Kaggle, you can sort through the latest statistic information about covid-19 cases around the globe.
                                 </span>
                             </div>
                             <div class="flex items-center space-x-6">
